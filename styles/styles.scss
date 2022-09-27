@@ -6,7 +6,8 @@
     list-style: none;
 }
 
-:root{
+:root
+{
     --color-primary: #191d2b;
     --color-secondary: #27ae60;
     --color-white: #FFFFFF;
@@ -96,33 +97,33 @@ section
 // Controls
 .controlls
 {
-    position: fixed;
-    z-index: 10;
-    top: 50%;
-    right: 3%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transform: translateY(-50%);
-    .control
-    {
-        padding: 1rem;
-        cursor: pointer;
-        background-color: var(--color-grey4);
-        width: 55px;
-        height: 55px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: .7rem 0;
-        box-shadow: var(--box-shadow1);
-        i
-        {
-            font-size: 1.2rem;
-            color: var(--color-grey2);
-            pointer-events: none;
-        }
+     position: fixed;
+     z-index: 10;
+     top: 50%;
+     right: 3%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     transform: translateY(-50%);
+     .control
+     {
+         padding: 1rem;
+         cursor: pointer;
+         background-color: var(--color-grey4);
+         width: 55px;
+         height: 55px;
+         border-radius: 50%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin: .7rem 0;
+         box-shadow: var(--box-shadow1);
+         i
+         {
+             font-size: 1.2rem;
+             color: var(--color-grey2);
+             pointer-events: none;
+         }
     }
 }
